@@ -18,6 +18,18 @@ body{
 .secondary-bg{
     background-color: #FFF8F3;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+.text-align{
+    text-align: center;
+}
 /*header*/
 .header{
     background-color: #FFF8F3;
@@ -93,21 +105,17 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 }
-.section-title{
-    font-size: 35px;
-    font-weight: 700;
-}
-.section-description{
-    font-size: 18px;
-    line-height: 30px;
-    color: #757575;
-}
+
 .about-info{
     border: 1px solid black;
     background-color: #FFFFFF;
@@ -118,4 +126,15 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+/*Skill styles*/
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    margin-top:20px;
 }
