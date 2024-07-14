@@ -138,3 +138,31 @@ main section{
     border-radius: 5px;
     margin-top:20px;
 }
+/*Resume styles*/
+.resume-container{
+    display: flex;
+}
+.resume-container hr{
+    margin-right: 24px;
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+}
+.experience-subtitle{
+    font-size: 20px;
+    color: #757575;
+    
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: 700; 
+}
+.btn-resume{
+    text-align: center;
+    margin-top: 20px;
+}
